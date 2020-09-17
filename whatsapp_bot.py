@@ -27,7 +27,7 @@ class WhattsappBot():
 
   def annoy(self):
     file = open(os.getcwd() + "/" +self.file_name)
-    contents = file.read().split("\n")#change the split to " " if you wanna get even more annoying
+    contents = file.read().split(" ")#change the split to " " if you wanna get even more annoying
     print(contents)
 
     text_in = self.driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
