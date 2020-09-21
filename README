@@ -4,3 +4,7 @@ Where:
 	name_of_the_file: is the name of the file with the contents you wanna send (please notice the contents will be sent ever new line "/n"
 	name_of_the_person: is the exact name of the person or group you wanna annoy
 
+
+TODO:
+-Program to send a message to someone
+-Program to send a recurrent message
